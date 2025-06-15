@@ -9,10 +9,10 @@ description = "A Python package for working with large language models"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Dave Roberson", email = "davidroberson@users.noreply.github.com"}
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Optimized Workflow Library", email = "info@workflow-library.org"}
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -44,9 +44,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/owl-llm"
-"Bug Tracker" = "https://github.com/yourusername/owl-llm/issues"
-"Documentation" = "https://owl-llm.readthedocs.io"
+"Homepage" = "https://github.com/workflow-library/owl-llm"
+"Bug Tracker" = "https://github.com/workflow-library/owl-llm/issues"
+"Documentation" = "https://github.com/workflow-library/owl-llm#readme"
 
 [project.scripts]
 owl-llm = "owl_llm.cli:main"

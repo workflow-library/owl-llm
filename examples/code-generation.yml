@@ -1,0 +1,14 @@
+# Example for code generation use case
+model:
+  class: File
+  path: ../models/codellama-7b-instruct.Q4_K_M.gguf
+
+prompt: |
+  Write a Python function that calculates the factorial of a number using recursion.
+  Include proper error handling and docstring.
+
+n_predict: 300
+temperature: 0.2
+top_k: 10
+top_p: 0.9
+seed: 42

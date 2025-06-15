@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(chmod:*)",
+      "Bash(./test-docker.sh:*)"
+    ],
+    "deny": []
+  }
+}

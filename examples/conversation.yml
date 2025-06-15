@@ -1,0 +1,12 @@
+# Example input for conversation workflow
+model:
+  class: File
+  path: ../models/llama-2-7b-chat.Q4_K_M.gguf
+
+prompts:
+  - "Hello! Can you explain what machine learning is?"
+  - "What are some common applications of machine learning?"
+  - "How does deep learning differ from traditional machine learning?"
+
+n_predict: 200
+temperature: 0.8

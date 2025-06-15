@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  llama-cpp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: owl-llm/llama-cpp:latest
+    container_name: llama-cpp
+    volumes:
+      - ./models:/models
+      - ./outputs:/outputs
+    working_dir: /opt/llama.cpp
+    stdin_open: true
+    tty: true

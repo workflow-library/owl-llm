@@ -1,17 +1,11 @@
 {
   "customizations": {
-    "codespaces": {
-      "repositories": {
-        "workflow-library/owlkit": {
-          "permissions": "write-all"
-        }
-      }
-    },
+    "codespaces": {},
     "vscode": {
       "extensions": [
         "quarto.quarto"
       ]
     }
   },
-  "postCreateCommand": "git clone https://github.com/workflow-library/owlkit.git owlkit && npm install -g @anthropic-ai/claude-code"
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
 }
